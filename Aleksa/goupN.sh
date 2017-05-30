@@ -6,6 +6,4 @@ do
     P=$P/..
 done
 
-alias proj="cd $P"
-
-proj
+cd $P
