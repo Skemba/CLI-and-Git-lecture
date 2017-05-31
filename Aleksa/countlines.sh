@@ -20,8 +20,8 @@ while [ "$*" != ""  ]
 do
         count_lines $1
         echo "$1: $l"
-        n=$[ $n + 1 ]
-        s=$[ $s + $l ]
+        n=$(($n + 1))
+        s=$(($s + $l))
 	shift
 done
 
